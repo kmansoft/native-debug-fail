@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Native Debug Fail"
 include ':app'
+include ':greeter'
+
+project(":greeter").projectDir = file("./modules/greeter")

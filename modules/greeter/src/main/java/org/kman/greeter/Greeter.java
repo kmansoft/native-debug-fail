@@ -1,4 +1,4 @@
-package org.kman.issue278621689;
+package org.kman.greeter;
 
 public class Greeter {
 
